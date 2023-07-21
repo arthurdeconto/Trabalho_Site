@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#product-top-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#product-image {
+    width: 200px;
+    height: auto;
+}
+
+.product-row {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.GreenNumbers {
+    border: 0.8px solid black;
+    padding: 10px 25px;
+}
+li {
+  margin: 10px 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#sidebar-left {
+  width: auto;
+  padding-left: 50px;
+}
+
+#content {
+  display: flex;
+  gap: 500px;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
